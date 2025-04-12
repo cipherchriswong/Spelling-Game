@@ -16,10 +16,18 @@ h1 {
   margin: 20px;
   color: #cc3399;
 }
+#inputs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
 #inputs input {
-  width: 40px;
-  font-size: 20px;
-  margin: 5px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
   text-align: center;
   border: 2px solid #ff99cc;
   border-radius: 8px;
